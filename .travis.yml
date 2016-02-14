@@ -1,5 +1,5 @@
-sudo: false
-language: node_js
+sudo: true
+language: android
 cache:
   directories:
     - node_modules
@@ -10,7 +10,9 @@ node_js:
 before_install:
   - npm i -g npm@^2.0.0
   - npm install -g ionic@beta
-  - npm install
+  - npm install -g cordova
+ install:
+  - echo y | android update sdk -u --filter android-22,android-23
 before_script:
   - npm prune
 after_success:

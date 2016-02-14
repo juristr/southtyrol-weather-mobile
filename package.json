@@ -13,7 +13,7 @@
     "build": "ionic build android",
     "start": "ionic serve",
     "prepublish": "npm run build",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release pre && semantic-release post"
   },
   "devDependencies": {
     "awesome-typescript-loader": "0.15.10",

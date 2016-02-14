@@ -1,5 +1,12 @@
 # southtyrol-weather-mobile
----
+
+Unofficial open source mobile app for the [South Tyrol Weather](http://www.provinz.bz.it/wetter).
+
+_Work in progress. Check back later or [follow me on Twitter](https://twitter.com/jurist)_
+
+## API
+
+This app is based on the [South Tyrol Weather API](https://weather.services.siag.it/api/help).
 
 ## License & Copyright
 

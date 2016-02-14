@@ -1,4 +1,4 @@
-sudo: true
+sudo: false
 language: android
 cache:
   directories:
@@ -17,7 +17,6 @@ before_install:
   - npm install -g cordova
 install:
   - npm install
-  - echo y | android update sdk -u --filter android-22,android-23
 before_script:
   - npm prune
 after_success:
